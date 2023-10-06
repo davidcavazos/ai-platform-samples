@@ -98,7 +98,7 @@ app.kernel.do_shutdown(True)
 
 3. [Enable the AI Platform APIs and Compute Engine APIs.](https://console.cloud.google.com/flows/enableapi?apiid=ml.googleapis.com,compute_component)
 
-4. [Google Cloud SDK](https://cloud.google.com/sdk) is already installed in AI Platform Notebooks.
+4. [Google Cloud SDK](https://cloud.google.com/sdk) is already installed in Vertex AI Workbench notebooks.
 
 5. Enter your project ID in the cell below. Then run the  cell to make sure the
 Cloud SDK uses the right project for all the commands in this notebook.
@@ -114,7 +114,7 @@ PROJECT_ID = "[your-project-id]" #@param {type:"string"}
 
 ### Authenticate your GCP account
 
-**If you are using AI Platform Notebooks**, your environment is already
+**If you are using Vertex AI Workbench notebooks**, your environment is already
 authenticated. Skip this step.
 
 **If you are using Colab**, run the cell below and follow the instructions

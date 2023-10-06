@@ -40,13 +40,13 @@ Please make sure you follow the next steps when developing Notebooks:
    8. Reviewers provide feedback and work with you to merge pull request
 
  
-   If Colab is required please provide compatibility with AI Platform
-   Notebooks, to help you on this we have created a template for you!
+   If Colab is required please provide compatibility with Vertex AI Workbench notebooks,
+   to help you on this we have created a template for you!
    [Template here](notebooks/templates/ai_platform_notebooks_template_hybrid.ipynb)
    
    ## Notebook requirements
-   1. Use [AI Platform notebooks](https://cloud.google.com/ai-platform-notebooks/)
-   We highly recommend to guarantee that your Notebook runs in AI Platform Notebooks
+   1. Use [Vertex AI Workbench notebooks](https://cloud.google.com/vertex-ai-notebooks/)
+   We highly recommend to guarantee that your Notebook runs in Vertex AI Workbench notebooks
    
    2. Use [templates](notebooks/templates) listed above. 
    3. Provide novel and relevant content 
@@ -84,7 +84,7 @@ Please make sure you follow the next steps when developing Notebooks:
    - AI Platform Training
    - AI Platform Prediction
    - AI Platform Explanations
-   - AI Platform Notebooks
+   - Notebooks
    
    Directory structure:
 

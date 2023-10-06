@@ -1,7 +1,7 @@
-# AI Platform Notebooks via Terraform installation 
+# Vertex AI Workbench notebooks via Terraform installation 
 
-Create an AI Platform Notebooks in GCP via Terraform. This will deploy a
-AI Platform Notebooks instance.
+Create a Vertex AI Workbench notebook in GCP via Terraform. This will deploy a
+Vertex AI Workbench notebook instance.
 
 ## Prerequisites
 

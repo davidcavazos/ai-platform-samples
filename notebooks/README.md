@@ -1,6 +1,6 @@
-# AI Platform Notebooks
+# Vertex AI Workbench notebooks
 
-AI Platform Notebooks is a managed service that offers an integrated JupyterLab environment in which machine learning 
+Vertex AI Workbench notebooks is a managed service that offers an integrated JupyterLab environment in which machine learning 
 developers and data scientists can create instances running JupyterLab that come pre-installed with the latest data 
 science and machine learning frameworks in a single click. Notebooks is integrated with BigQuery, Cloud Dataproc, and 
 Cloud Dataflow, making it easy to go from data ingestion to preprocessing and exploration, and eventually model training 
@@ -28,17 +28,17 @@ A fully functional continuous integration and continuous deployment system for J
 - [Nova Agent](tools/nova-agents): Allows you to execute notebooks directly from your Jupyter UI. Nova and its corresponding compute 
 workload runs on a separate Compute Engine instance using Nteract [papermill](https://github.com/nteract/papermill).
 - [Nova Jupyterlab extensions](tools/nova-jupyterlab-extensions): Nova Plugin.
-- [Notebook Deployment Manager](tools/deployment-manager): Automating AI Platform Notebook Instance Creation With GCP Deployment Manager.
+- [Notebook Deployment Manager](tools/deployment-manager): Automating Vertex AI Workbench notebook instance creation with GCP Deployment Manager.
 - [Terraform](tools/terraform): Deploy a Notebook instance using
   Terraform.
 
 
 # Templates
 
-- [AI Platform Notebooks Template](templates/ai_platform_notebooks_template.ipynb)
-- [AI Platform Notebooks/Colab Template](templates/ai_platform_notebooks_template_hybrid.ipynb)
+- [Vertex AI Workbench notebooks template](templates/ai_platform_notebooks_template.ipynb)
+- [Vertex AI Workbench / Colab notebook template](templates/ai_platform_notebooks_template_hybrid.ipynb)
 
 # How to get help?
 
-If you have further questions, or encounter issues using AI Platform Notebooks, 
+If you have further questions, or encounter issues using Vertex AI Workbench notebooks, 
 open an issue or reach out at our team's forum: https://groups.google.com/forum/#!forum/google-dl-platform

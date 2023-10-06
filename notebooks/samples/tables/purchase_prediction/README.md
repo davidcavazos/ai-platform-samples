@@ -34,7 +34,7 @@ Steps Involved
 
 ### 1. Set up
 
-**If you are using AI Platform Notebooks**, your environment is alreadyauthenticated. Skip this step.
+**If you are using Vertex AI Workbench notebooks**, your environment is alreadyauthenticated. Skip this step.
 
 The first step in this process was to set up the project. We referred to the [AutoML tables documentation](https://cloud.google.com/automl-tables/docs/) and take the following steps:
 * Create a Google Cloud Platform (GCP) project
@@ -47,7 +47,7 @@ There are a few options concerning how to host the colab: default hosted runtime
 ##### Default Hosted Runtime:
 
 The hosted runtime is the simplest to use. It accesses a default VM already configured to host the colab notebook. Simply navigate to the upper right hand corner click on the connect drop down box, which will give you the option to “connect to hosted runtime”. 
-Alternatively you can use the [AI Platform Notebooks] (https://cloud.google.com/ai-platform-notebooks/).
+Alternatively you can use the [Vertex AI Workbench notebooks](https://cloud.google.com/vertex-ai-notebooks/).
 
 ##### Local Runtime:
 The local runtime takes a bit more work. It involves downloading jupyter notebooks onto your local machine, likely the desktop from which you access the colab. After downloading jupyter notebooks, you can connect to the local runtime. The colab notebook will run off of your local machine. Detailed instructions can be found [here](https://research.google.com/colaboratory/local-runtimes.html).

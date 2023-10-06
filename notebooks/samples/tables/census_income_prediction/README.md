@@ -22,7 +22,7 @@ The dataset consists of over 30k rows, where each row corresponds to a different
 
 
 ## Solution Walkthrough
-The solution has been developed using [Google Colab Notebook](https://colab.research.google.com/notebooks/welcome.ipynb) or in Jupyter (see [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks/)). 
+The solution has been developed using [Google Colab Notebook](https://colab.research.google.com/notebooks/welcome.ipynb) or in Jupyter (see [Vertex AI Workbench notebooks](https://cloud.google.com/vertex-ai-notebooks/)). 
 
 
 
@@ -38,7 +38,7 @@ The first step in this process was to set up the project. We referred to the [Au
 * Enable the AutoML Tables API
 * Create a service account, grant required permissions, and download the service account private key.
 
-**If you are using AI Platform Notebooks**, your environment is already authenticated
+**If you are using Vertex AI Workbench notebooks**, your environment is already authenticated
 
 ### 2. Initialize and authenticate
 
